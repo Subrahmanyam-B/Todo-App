@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Red+Hat+Text:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  color: rgb(162, 121, 204);
+  font-size: 6rem;
+  text-align: center;
+  opacity: 0.5;
+}
+
+form {
+  margin: auto;
+  max-width: 100%;
+  width: 400px;
+}
+
+.input {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.15);
+  display: block;
+  font-size: 2rem;
+  width: 100%;
+  padding: 0.5rem 2rem;
+  margin-bottom: 1rem;
+}
+
+.input::-moz-placeholder {
+  color: turquoise;
+}
+
+.input:-ms-input-placeholder {
+  color: turquoise;
+}
+
+.input::placeholder {
+  color: turquoise;
+}
+
+.todo {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-radius: 5px;
+  box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.15);
+}
+.todo li {
+  border-top: 1px solid #b5b5b5;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 0.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.todo li:first-child {
+  border: none;
+}
+.todo li.completed {
+  text-decoration: line-through;
+  color: #a5a5a5;
+}
+.todo li svg {
+  fill: #a5a5a5;
+  cursor: pointer;
+}
+.todo li svg:hover {
+  fill: red;
+  opacity: 0.5;
+}/*# sourceMappingURL=style.css.map */
